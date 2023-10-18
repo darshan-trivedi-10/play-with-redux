@@ -2,7 +2,7 @@ const initialState = {
     value : '',
 };
 
-const inputReducer = (
+const reducers = (
     state = initialState, action
 ) => {
     switch (action.type) {
@@ -13,4 +13,4 @@ const inputReducer = (
     }
 };
 
-export default inputReducer;
+export default reducers;
