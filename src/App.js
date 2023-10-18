@@ -1,5 +1,11 @@
+import ComponentA from './components/ComponentA';
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+    <ComponentA/>
+    </>
+  );
 }
 
 export default App;
